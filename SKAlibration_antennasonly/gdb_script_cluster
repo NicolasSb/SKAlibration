@@ -1,0 +1,6 @@
+
+symbol-file output/bin/cluster_bin
+
+p _scoreboard_start ->SCB_VCORE .PER_CPU [1].SFR_SPC
+p _scoreboard_start ->SCB_VCORE .PER_CPU [1].SFR_SSPC
+p _scoreboard_start ->SCB_VCORE .PER_CPU [1].SFR_SSSPC
